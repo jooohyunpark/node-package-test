@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "serve": "nodemon server.js",
-    "dev": "http-server",
+    "dev": "http-server -o",
     "build": "browserify script.js -o bundle.js"
   },
   "author": "",
